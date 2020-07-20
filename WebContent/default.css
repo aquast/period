@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+h1{
+	font-size: 1.4em;
+	text-align: center;
+	padding: 0px;
+}
+
+.row{
+	clear:both;
+	max-width: 95%;
+}
+
+.element{
+	float:left;
+	padding: 10px;
+	margin: 5px;
+	min-width: 5%;
+	border: groove; 2em;
+	border-color: #dddddd;
+}
+div.pronom{
+	font-size: .6em;
+	margin-left: -8px;	
+	margin-top: -16px;
+	margin-bottom: 30px;	
+}
+
+div.stage{
+	font-size: .6em;
+	margin-left: -8px;	
+	margin-bottom: -16px;
+	margin-top: 30px;	
+}
+
+.inner{
+	line-height: 0.1px;
+}
+
+p.applicat{
+	font-size: .6em;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;	
+	
+}
+
+
+.last_element{
+	float:left;
+	padding: 10px;
+	margin: 5px;
+	min-width: 5%;
+	border: groove; 2em; 
+	border-color: #dddddd;
+}
+
+.noElem{
+	border: solid; 2px;
+	border-color: #fff;
+}
+
+.col1{
+	background-color: DarkGreen;
+	color: #ddd;
+}
+.col2{
+	background-color: ForestGreen;
+	color: #ddd;
+}
+.col3{
+	background-color: CadetBlue;
+	color: #fff;
+}
+.col4{
+	background-color: CadetBlue;
+	color: #fff;
+}
+.col5{
+	background-color: Aquamarine;
+	color: #444;
+}
+.col6{
+	background-color: Aquamarine;
+	color: #444;
+}
+.col7{
+	background-color: GoldenRod;
+	color: #444;
+}
+.col8{
+	background-color: GoldenRod;
+	color: #444;
+}
+.col9{
+	background-color: GoldenRod;
+	color: #444;
+}
+.col10{
+	background-color: CadetBlue;
+	color: #fff;
+}
+.col11{
+	background-color: CadetBlue;
+	color: #fff;
+}
+.col12{
+	background-color: CadetBlue;
+	color: #fff;
+}
