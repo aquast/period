@@ -1,14 +1,26 @@
 @charset "UTF-8";
 
+body{
+		max-width: 85%;
+		margin: auto;
+}
 h1{
-	font-size: 1.4em;
+	font-family: sans;
+	text-align: center;
+	padding: 10px;
+	padding-bottom: 5px;
+}
+
+div h1{
+	font-family: sans;
+	font-size: 1.2em;
 	text-align: center;
 	padding: 0px;
 }
 
 .row{
 	clear:both;
-	max-width: 95%;
+	margin: auto;
 }
 
 .element{
@@ -20,14 +32,16 @@ h1{
 	border-color: #dddddd;
 }
 div.pronom{
-	font-size: .6em;
+	font-family: sans;
+	font-size: .8em;
 	margin-left: -8px;	
 	margin-top: -16px;
 	margin-bottom: 30px;	
 }
 
 div.stage{
-	font-size: .6em;
+	font-family: sans;
+	font-size: .8em;
 	margin-left: -8px;	
 	margin-bottom: -16px;
 	margin-top: 30px;	
@@ -38,9 +52,10 @@ div.stage{
 }
 
 p.applicat{
-	font-size: .6em;
+	font-family: sans;
+	font-size: .8em;
 	margin: 0px;
-	padding: 0px;
+	padding: 2px;
 	text-align: center;	
 	
 }
@@ -104,7 +119,11 @@ p.applicat{
 	background-color: CadetBlue;
 	color: #fff;
 }
-.col12{
+.3d{
+	background-color: CadetBlue;
+	color: #fff;
+}
+.container{
 	background-color: CadetBlue;
 	color: #fff;
 }
