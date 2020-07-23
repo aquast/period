@@ -5,12 +5,122 @@ body{
 		margin: auto;
 }
 
-h1{
+body>h1{
 	font-family: sans-serif;
 	text-align: center;
 	padding: 10px;
 	padding-bottom: 5px;
+	max-width: 70%;
 }
+
+.subtitle{
+	margin-top: -15px;
+	text-align: center;
+	font-family: sans-serif;
+	max-width: 70%;
+}
+
+.formatFrame{
+	height: 8em;
+	margin: 0.3em;
+}
+
+.legend{
+	position : absolute;
+	margin-top: 3em;
+	margin-left: 10em;
+	border: groove; 2em; 
+	border-color: 555;
+  	background-color: Aquamarine;
+	width: 15%;
+	
+}
+
+.infoArrow{
+	height: 1.4em;
+	position:absolute;
+	z-index: 70;
+	background-color: white;
+	color: black;
+	padding: 3px; 
+	max-width: 30%;
+	margin-top: 55px;
+	margin-left: 300px;
+  	border-radius: 5px;
+ 	box-shadow:	 10px 10px 15px #888888;
+}
+
+.infoArrow p{
+	margin: 0px;
+	font-family: sans-serif;
+	padding: 3px; 
+}
+
+.infoArrowMimetype{
+	height: 3em;
+	position:absolute;
+	z-index: 70;
+	background-color: white;
+	color: black;
+	padding: 3px; 
+	margin-top: 155px;
+	max-width: 30%;
+	margin-left: 400px;
+  	border-radius: 5px;
+	box-shadow:	 10px 10px 15px #888888;
+}
+
+.infoArrowMimetype p{
+	margin: 0px;
+	font-family: sans-serif;
+	padding: 3px; 
+}
+
+.infoArrowStages{
+	height: 3em;
+	position:absolute;
+	z-index: 70;
+	background-color: white;
+	color: black;
+	padding: 3px; 
+	margin-top: 255px;
+	max-width: 30%;
+	margin-left: 300px;
+  	border-radius: 5px;
+	box-shadow:	 10px 10px 15px #888888;
+}
+
+.infoArrowStages p{
+	margin: 0px;
+	font-family: sans-serif;
+	padding: 3px; 
+}
+
+.focussedElement .pronom{
+	font-family: sans-serif;
+	font-size: 1.4em;
+	margin-left: 2px;	
+	margin-top: 2px;
+	margin-bottom: 70px;	
+	}
+.focussedElement h1{
+	font-family: sans-serif;
+	font-size: 3em;
+	text-align: center;
+
+	}
+.focussedElement .application{
+	font-family: sans-serif;
+	font-size: 1.4em;
+	margin-bottom: 70px;	
+	text-align: center;
+	}
+.focussedElement .stage{
+	font-family: sans-serif;
+	font-size: 1.4em;
+	margin-left: 2px;	
+	margin-bottom: 2px;
+	}
 
 div h1{
 	font-family: sans-serif;
@@ -44,9 +154,11 @@ div h1{
 	
 }
 
-.row{
-	clear:both;
-	margin: auto;
+
+.flexCol{
+	display: flex;
+  	flex-direction: column;
+  	float: left;
 }
 
 .element{
@@ -56,6 +168,7 @@ div h1{
 	min-width: 5%;
 	border: groove; 2em;
 	border-color: #dddddd;
+	height: 70px;
 	
 }
 .element:hover{
@@ -75,8 +188,8 @@ div.pronom{
 	font-family: sans-serif;
 	font-size: .8em;
 	margin-left: -8px;	
-	margin-top: -16px;
-	margin-bottom: 30px;	
+	margin-top: -20px;
+	margin-bottom: 20px;	
 }
 div.pronom a{
 	text-decoration: none;
@@ -88,7 +201,7 @@ div.stage{
 	font-size: .8em;
 	margin-left: -8px;	
 	margin-bottom: -16px;
-	margin-top: 30px;	
+	margin-top: 20px;	
 }
 
 .inner{
@@ -126,47 +239,47 @@ p.application{
 	visibility: hidden;
 }
 
-.col1{
+.text{
 	background-color: DarkGreen;
 	color: #ddd;
 }
-.col2{
+.word{
 	background-color: ForestGreen;
 	color: #ddd;
 }
-.col3{
+.publishing{
 	background-color: CadetBlue;
 	color: #fff;
 }
-.col4{
+.presentation{
 	background-color: CadetBlue;
 	color: #fff;
 }
-.col5{
+.image{
 	background-color: Aquamarine;
 	color: #444;
 }
-.col6{
+.vector{
 	background-color: Aquamarine;
 	color: #444;
 }
-.col7{
+.audio{
 	background-color: GoldenRod;
 	color: #444;
 }
-.col8{
+.video{
 	background-color: GoldenRod;
 	color: #444;
 }
-.col9{
+.interactive{
 	background-color: GoldenRod;
 	color: #444;
 }
-.col10{
-	background-color: CadetBlue;
+.data{
+	background-color: DodgerBlue;
 	color: #fff;
 }
-.col11{
+.gps{
 	background-color: CadetBlue;
 	color: #fff;
 }
@@ -200,7 +313,7 @@ p.application{
   	transition-duration: 0.4s;
   	cursor: pointer;
   	background-color: Tomato;
-  	min-width: 25%;
+  	min-width: 30%;
 }
 
 .filters button.showText{
@@ -215,9 +328,38 @@ p.application{
   	transition-duration: 0.4s;
   	cursor: pointer;
   	background-color: CadetBlue;
-  	min-width: 25%;
+  	min-width: 30%;
 }
 
+.filters button.showImage{
+	border: groove;
+  	color: white;
+  	padding: 16px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	transition-duration: 0.4s;
+  	cursor: pointer;
+  	background-color: Tomato;
+  	min-width: 30%;
+}
+
+.filters button.showMedia{
+	border: groove;
+  	color: white;
+  	padding: 16px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	transition-duration: 0.4s;
+  	cursor: pointer;
+  	background-color: CadetBlue;
+  	min-width: 30%;
+}
 
 .footer{
 	padding-top: 10em;
