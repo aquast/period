@@ -7,15 +7,20 @@
 
 </head>
 <body>
-	<h1>The (not so periodic) Table of File Formats</h1>
+	<h1>The interactive Table of File Formats</h1>
 	<p class="subtitle">Facilitates to find recommended formats for
 		long term availabiltiy</p>
 	<div class="formatFrame">
 		<div class="legend">
 			<div class="focussedElement">
-				<p class="pronom">x-fmt/111</p>
-				<div class="inner">
+					<p class="pronom">
+						<a
+							href="https://www.nationalarchives.gov.uk/PRONOM/Format/proFormatSearch.aspx?status=detailReport&id=635"
+							target="_blank">fmt/92</a>
+					</p>
+				<div class="inner formattip">
 					<h1>.svg</h1>
+					<span class="tiptext">Version 1.1</span>
 					<p class="application">Inkscape</p>
 				</div>
 				<div class="stage">
@@ -23,17 +28,49 @@
 				</div>
 			</div>
 		</div>
+		<div class="infobox">
 		<div class="infoArrow">
-			<p>PRONOM-PUID: Click to find more details</p>
+			<p>PRONOM-PUID: Click on it for more details</p>
 			<div class="rectangle">&nbsp;</div>
 		</div>
 		<div class="infoArrowMimetype">
-			<p>Mimetype-Suffix and Application Example: <br />Click to find more details</p>
+			<p>Mimetype-Suffix and Application Example: <br />Click on it for more details</p>
 			<div class="rectangle">&nbsp;</div>
 		</div>
 		<div class="infoArrowStages">
-			<p>Categories: 0 / 1, 0 / 1, 0 / 1 <br />text/binary, proprietary/open, rarely/widely used</p>
+			<table>
+			<tr>
+			<th>LTP-criteria</th><td>bin</td><td>text</td><td>prop</td><td>open</td><td>rare</td><td>common</td>
+			</tr>
+			<tr>
+			<th>Code</th><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td>
+			</tr>
+			</table>
 			<div class="rectangle">&nbsp;</div>
+		</div>
+		</div>
+		<div class="filterbox">
+		<h1>Apply Filters</h1>
+		<div>
+			<button class="showValid">Filter Formats recommended for
+				Long Term Availability</button>
+		</div>
+		<div>
+			<button class="showDoc">Filter Document Formats</button>
+		</div>
+		<div>
+			<button class="showText">Filter Text Formats</button>
+		</div>
+		<div>
+			<button class="showMedia">Filter Multimedia Formats</button>
+		</div>
+		<div>
+			<button class="showImage">Filter Image Formats</button>
+		</div>
+		<div>
+			<button class="resetAll">Reset Filters</button>
+		</div>
+
 		</div>
 	</div>
 
@@ -47,7 +84,7 @@
 				<div class="pronom">
 					<p class="pronom">x-fmt/111</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.txt</h1>
 					<p class="application">Editor</p>
 				</div>
@@ -59,24 +96,28 @@
 				<div class="pronom">
 					<p class="pronom">
 						<a
-							href="https://www.nationalarchives.gov.uk/PRONOM/Format/proFormatSearch.aspx?status=detailReport&id=163"
-							target="_blank">x-fmt/111</a>
+							href="https://www.nationalarchives.gov.uk/PRONOM/Format/proFormatSearch.aspx?status=detailReport&id=1959"
+							target="_blank">fmt/1149</a>
 					</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.md</h1>
-					<p class="application">Editor</p>
+					<p class="application">Markdown</p>
 				</div>
 				<div class="stage">
 					<p class="stage">111</p>
 				</div>
 			</div>
-			<div class="element text" title="text">
+			<div class="element text">
 				<div class="pronom">
-					<p class="pronom">fmt/</p>
+					<p class="pronom">
+					<a href="https://www.nationalarchives.gov.uk/PRONOM/Format/proFormatSearch.aspx?status=detailReport&id=1160"
+							target="_blank">fmt/471</a>
+					</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.html</h1>
+					<span class="tiptext">Version 5</span>
 					<p class="application">Chrome</p>
 				</div>
 				<div class="stage">
@@ -85,9 +126,9 @@
 			</div>
 			<div class="element text">
 				<div class="pronom">
-					<p class="pronom">fmt/</p>
+					<p class="pronom">not listed</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.xhtml</h1>
 					<p class="application">&nbsp;</p>
 				</div>
@@ -108,7 +149,7 @@
 							target="_blank">x-fmt/276</a>
 					</p>
 				</div>
-				<div class="inner formattip">
+				<div class="inner formattip formattip">
 					<h1>.doc</h1>
 					<span class="tiptext">Version 5.5</span>
 					<p class="application">MS-Word</p>
@@ -121,7 +162,7 @@
 				<div class="pronom">
 					<p class="pronom">fmt/</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.docx</h1>
 					<p class="application">MS-Word</p>
 				</div>
@@ -133,7 +174,7 @@
 				<div class="pronom">
 					<p class="pronom">fmt/</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.odt</h1>
 					<p class="application">LibreOffice</p>
 				</div>
@@ -154,47 +195,19 @@
 							target="_blank">fmt/280</a>
 					</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.tex</h1>
-					<p class="application">LaTeX</p>
-				</div>
-				<div class="stage">
-					<p class="stage">010</p>
-				</div>
-			</div>
-			<div class="element publishing">
-				<div class="pronom">
-					<p class="pronom">
-						<a
-							href="https://www.nationalarchives.gov.uk/PRONOM/Format/proFormatSearch.aspx?status=detailReport&id="
-							target="_blank">fmt/</a>
-					</p>
-				</div>
-				<div class="inner">
-					<h1>.dvi</h1>
 					<p class="application">LaTeX</p>
 				</div>
 				<div class="stage">
 					<p class="stage">111</p>
 				</div>
 			</div>
-			<div class="element publishing">
-				<div class="pronom">
-					<p class="pronom">fmt/</p>
-				</div>
-				<div class="inner">
-					<h1>.pdf</h1>
-					<p class="application">Acrobat</p>
-				</div>
-				<div class="stage">
-					<p class="stage">001</p>
-				</div>
-			</div>
 			<div class="element publishing nonValid">
 				<div class="pronom">
 					<p class="pronom">fmt/</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.indd</h1>
 					<p class="application">InDesign</p>
 				</div>
@@ -206,7 +219,7 @@
 				<div class="pronom">
 					<p class="pronom">fmt/</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.sla</h1>
 					<p class="application">Scribus</p>
 				</div>
@@ -215,7 +228,49 @@
 				</div>
 			</div>
 
+		</div>
+		<div class="flexCol publishingFormat">
+			<div class="element noElem"></div>
+			<div class="element noElem"></div>
+			<div class="element publishing">
+				<div class="pronom">
+					<p class="pronom">fmt/</p>
+				</div>
+				<div class="inner formattip">
+					<h1>.dvi</h1>
+					<p class="application">LaTeX</p>
+				</div>
+				<div class="stage">
+					<p class="stage">010</p>
+				</div>
+			</div>
+			<div class="element publishing">
+				<div class="pronom">
+					<p class="pronom">fmt/</p>
+				</div>
+				<div class="inner formattip">
+					<h1>.eps</h1>
+					<p class="application"></p>
+				</div>
+				<div class="stage">
+					<p class="stage">001</p>
+				</div>
+			</div>
+			<div class="element publishing">
+				<div class="pronom">
+					<p class="pronom">fmt/</p>
+				</div>
+				<div class="inner formattip">
+					<h1>.pdf</h1>
+					<span class="tiptext">PDF/A 2u</span>
+					<p class="application">Acrobat</p>
+				</div>
+				<div class="stage">
+					<p class="stage">001</p>
+				</div>
+			</div>
 
+		
 		</div>
 		<div class="flexCol presentFormat">
 			<div class="element noElem"></div>
@@ -224,12 +279,13 @@
 				<div class="pronom">
 					<p class="pronom">
 						<a
-							href="https://www.nationalarchives.gov.uk/PRONOM/Format/proFormatSearch.aspx?status=detailReport&id=134"
-							target="_blank">x-fmt/125</a>
+							href="https://www.nationalarchives.gov.uk/PRONOM/Format/proFormatSearch.aspx?status=detailReport&id=135"
+							target="_blank">x-fmt/126</a>
 					</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.ppt</h1>
+					<span class="tiptext">95 - 2003</span>
 					<p class="application">PowerPoint</p>
 				</div>
 				<div class="stage">
@@ -240,7 +296,7 @@
 				<div class="pronom">
 					<p class="pronom">fmt/</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.pptx</h1>
 					<p class="application">PowerPoint</p>
 				</div>
@@ -252,8 +308,8 @@
 				<div class="pronom">
 					<p class="pronom">fmt/</p>
 				</div>
-				<div class="inner">
-					<h1>.ods</h1>
+				<div class="inner formattip">
+					<h1>.odp</h1>
 					<p class="application">LibreOffice</p>
 				</div>
 				<div class="stage">
@@ -271,7 +327,7 @@
 				<div class="pronom">
 					<p class="pronom">fmt/114-119</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.bmp</h1>
 					<p class="application">MS-Paint</p>
 				</div>
@@ -283,7 +339,7 @@
 				<div class="pronom">
 					<p class="pronom">fmt/</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.gif</h1>
 					<p class="application">&nbsp;</p>
 				</div>
@@ -295,7 +351,7 @@
 				<div class="pronom">
 					<p class="pronom">fmt/</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.png</h1>
 					<p class="application">&nbsp;</p>
 				</div>
@@ -307,7 +363,7 @@
 				<div class="pronom">
 					<p class="pronom">fmt/</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.tif</h1>
 					<p class="application">&nbsp;</p>
 				</div>
@@ -323,10 +379,15 @@
 			<div class="element noElem"></div>
 			<div class="element vector">
 				<div class="pronom">
-					<p class="pronom">fmt/91-92</p>
+					<p class="pronom">
+						<a
+							href="https://www.nationalarchives.gov.uk/PRONOM/Format/proFormatSearch.aspx?status=detailReport&id=635"
+							target="_blank">fmt/92</a>
+					</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.svg</h1>
+					<span class="tiptext">Version 1.1</span>
 					<p class="application">Inkscape</p>
 				</div>
 				<div class="stage">
@@ -338,7 +399,7 @@
 				<div class="pronom">
 					<p class="pronom">fmt/</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.ai</h1>
 					<p class="application">Illustrator</p>
 				</div>
@@ -350,7 +411,7 @@
 				<div class="pronom">
 					<p class="pronom">fmt/</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.cdr</h1>
 					<p class="application">CorelDraw</p>
 				</div>
@@ -366,7 +427,7 @@
 				<div class="pronom">
 					<p class="pronom">fmt/</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.wav</h1>
 					<p class="application">&nbsp;</p>
 				</div>
@@ -378,7 +439,7 @@
 				<div class="pronom">
 					<p class="pronom">fmt/</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.mp3</h1>
 					<p class="application">&nbsp;</p>
 				</div>
@@ -390,7 +451,7 @@
 				<div class="pronom">
 					<p class="pronom">fmt/</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.m4a</h1>
 					<p class="application">&nbsp;</p>
 				</div>
@@ -409,7 +470,7 @@
 				<div class="pronom">
 					<p class="pronom">fmt/</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.mpg</h1>
 					<p class="application">&nbsp;</p>
 				</div>
@@ -421,7 +482,7 @@
 				<div class="pronom">
 					<p class="pronom">fmt/</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.webm</h1>
 					<p class="application">&nbsp;</p>
 				</div>
@@ -433,7 +494,7 @@
 				<div class="pronom">
 					<p class="pronom">fmt/</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.mov</h1>
 					<p class="application">&nbsp;</p>
 				</div>
@@ -445,7 +506,7 @@
 				<div class="pronom">
 					<p class="pronom">fmt/</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.mkv</h1>
 					<p class="application">&nbsp;</p>
 				</div>
@@ -454,6 +515,29 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="flexCol interactiveFormat">
+			<div class="element noElem"></div>
+			<div class="element noElem"></div>
+			<div class="element interactive nonValid">
+				<div class="pronom">
+					<p class="pronom">
+						<a
+							href="https://www.nationalarchives.gov.uk/PRONOM/Format/proFormatSearch.aspx?status=detailReport&id=1293"
+							target="_blank">fmt/506</a>
+					</p>
+				</div>
+				<div class="inner formattip">
+					<h1>.swf</h1>
+					<span class="tiptext">Version 9</span>
+					<p class="application">Flashplayer</p>
+				</div>
+				<div class="stage">
+					<p class="stage">001</p>
+				</div>
+			</div>
+		</div>
+		
 		<div class="flexCol dataFormat">
 			<div class="element noElem"></div>
 			<div class="element noElem"></div>
@@ -461,7 +545,7 @@
 				<div class="pronom">
 					<p class="pronom">fmt/</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.csv</h1>
 					<p class="application">&nbsp;</p>
 				</div>
@@ -473,7 +557,7 @@
 				<div class="pronom">
 					<p class="pronom">fmt/</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.xls</h1>
 					<p class="application">&nbsp;</p>
 				</div>
@@ -485,7 +569,7 @@
 				<div class="pronom">
 					<p class="pronom">&nbsp;</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>xlsx</h1>
 					<p class="application">Excel</p>
 				</div>
@@ -504,7 +588,7 @@
 				<div class="pronom">
 					<p class="pronom">fmt/</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.kml</h1>
 					<p class="application">&nbsp;</p>
 				</div>
@@ -516,7 +600,7 @@
 				<div class="pronom">
 					<p class="pronom">fmt/</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.gps</h1>
 					<p class="application">&nbsp;</p>
 				</div>
@@ -534,7 +618,7 @@
 				<div class="pronom">
 					<p class="pronom">fmt/</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.obj</h1>
 					<p class="application">Blender</p>
 				</div>
@@ -546,7 +630,7 @@
 				<div class="pronom">
 					<p class="pronom">fmt/</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.dae</h1>
 					<p class="application">collada</p>
 				</div>
@@ -558,7 +642,7 @@
 				<div class="pronom">
 					<p class="pronom">fmt/</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.ply</h1>
 					<p class="application">&nbsp;</p>
 				</div>
@@ -576,7 +660,7 @@
 				<div class="pronom">
 					<p class="pronom">fmt/</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.arc</h1>
 					<p class="application">wayback</p>
 				</div>
@@ -588,7 +672,7 @@
 				<div class="pronom">
 					<p class="pronom">fmt/</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.warc</h1>
 					<p class="application">WayBack</p>
 				</div>
@@ -600,7 +684,7 @@
 				<div class="pronom">
 					<p class="pronom">fmt/</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.zip</h1>
 					<p class="application"></p>
 				</div>
@@ -612,7 +696,7 @@
 				<div class="pronom">
 					<p class="pronom">fmt/</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.tar</h1>
 					<p class="application"></p>
 				</div>
@@ -624,7 +708,7 @@
 				<div class="pronom">
 					<p class="pronom">fmt/</p>
 				</div>
-				<div class="inner">
+				<div class="inner formattip">
 					<h1>.hdf5</h1>
 					<p class="application">C#</p>
 				</div>
@@ -634,28 +718,6 @@
 			</div>
 		</div>
 	</div> <!-- end .periodicTable -->
-	
-	
-	
-	<div class="filters">
-		<h1>Apply Filters</h1>
-		<div>
-			<button class="showValid">Show/Hide Formats recommended for
-				Long Term Availability</button>
-		</div>
-		<div>
-			<button class="showText">Show/Hide Formats for Text</button>
-		</div>
-		<div>
-			<button class="showMedia">Show/Hide Formats for Multimedia</button>
-		</div>
-		<div>
-			<button class="showImage">Show/Hide Formats for Images</button>
-		</div>
-		<div>
-			<button class="resetAll">Reset all Filters</button>
-		</div>
-	</div>
 	<div class="footer">
 		<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img
 			alt="Creative Commons License" style="border-width: 0"

@@ -21,7 +21,7 @@ body>h1{
 }
 
 .formatFrame{
-	height: 8em;
+	height: 4em;
 	margin: 0.3em;
 }
 
@@ -32,9 +32,36 @@ body>h1{
 	border: groove; 2em; 
 	border-color: 555;
   	background-color: Aquamarine;
-	width: 15%;
+	width: 170px;
 	
 }
+
+table{
+	font-family: sans-serif;
+	font-size: 1em;
+	text-align: center;
+}
+
+th{
+	text-align: left;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+	
+.infobox{
+	position: relative;
+	width: 300px;
+	margin-left: 350px;
+	margin-top: 20px;
+}
+
+.filterbox{
+	position: relative;
+	width: 300px;
+	margin-left: 750px;
+}
+
 
 .infoArrow{
 	height: 1.4em;
@@ -43,11 +70,11 @@ body>h1{
 	background-color: white;
 	color: black;
 	padding: 3px; 
-	max-width: 30%;
-	margin-top: 55px;
-	margin-left: 300px;
+	max-width: 100%;
+	margin-top: 45px;
   	border-radius: 5px;
- 	box-shadow:	 10px 10px 15px #888888;
+	width: 100%;
+	font-size: 0.9em;
 }
 
 .infoArrow p{
@@ -63,11 +90,11 @@ body>h1{
 	background-color: white;
 	color: black;
 	padding: 3px; 
-	margin-top: 155px;
-	max-width: 30%;
-	margin-left: 400px;
+	margin-top: 100px;
+	max-width: 100%;
   	border-radius: 5px;
-	box-shadow:	 10px 10px 15px #888888;
+	width: 100%;
+	font-size: 0.9em;
 }
 
 .infoArrowMimetype p{
@@ -83,11 +110,11 @@ body>h1{
 	background-color: white;
 	color: black;
 	padding: 3px; 
-	margin-top: 255px;
-	max-width: 30%;
-	margin-left: 300px;
+	margin-top: 170px;
+	max-width: 100%;
   	border-radius: 5px;
-	box-shadow:	 10px 10px 15px #888888;
+	width: 100%;
+	font-size: 0.9em;
 }
 
 .infoArrowStages p{
@@ -101,8 +128,15 @@ body>h1{
 	font-size: 1.4em;
 	margin-left: 2px;	
 	margin-top: 2px;
-	margin-bottom: 70px;	
+	margin-bottom: 30px;
+	text-decoration: none;	
 	}
+
+.focussedElement a{
+	text-decoration: none;
+	color: inherit;	
+	}
+
 .focussedElement h1{
 	font-family: sans-serif;
 	font-size: 3em;
@@ -112,7 +146,7 @@ body>h1{
 .focussedElement .application{
 	font-family: sans-serif;
 	font-size: 1.4em;
-	margin-bottom: 70px;	
+	margin-bottom: 30px;	
 	text-align: center;
 	}
 .focussedElement .stage{
@@ -140,7 +174,7 @@ div h1{
   	color: #fff;
   	text-align: center;
   	padding: 8px;
-  	border-radius: 6px;
+  	border-radius: 3px;
     font-family: sans-serif;
 	font-weight: bold;
 	margin-left: -15px; 
@@ -186,7 +220,6 @@ div h1{
 	border-color: #dddddd;
 	border-radius: 5;
 	box-shadow: 10px 10px 15px #888888;
-	opacity: 0.7;
 	transform: 5s
 }
 
@@ -221,16 +254,6 @@ p.application{
 	padding: 2px;
 	text-align: center;	
 	
-}
-
-
-.last_element{
-	float:left;
-	padding: 10px;
-	margin: 5px;
-	min-width: 5%;
-	border: groove; 2em; 
-	border-color: #dddddd;
 }
 
 .noElem{
@@ -298,77 +321,32 @@ p.application{
 	color: #fff;
 }
 
-.filters{
-  	padding-top: 30px;
-	clear:both;
-}
-
-.filters h1{
-	text-align: left;
-}
-
-.filters button.showValid{
+.filterbox button{
 	border: groove;
-  	color: white;
-  	padding: 16px 32px;
+  	color: black;
+  	padding: 2px;
   	text-align: center;
   	text-decoration: none;
+  	font-size: 1em;
   	display: inline-block;
-  	font-size: 16px;
-  	margin: 4px 2px;
+  	margin: 2px;
   	transition-duration: 0.4s;
   	cursor: pointer;
-  	background-color: Tomato;
-  	min-width: 30%;
+  	background-color: Gold;
+	border-radius: 6px;
+  	width: 100%;
 }
 
-.filters button.showText{
-	border: groove;
-  	color: white;
-  	padding: 16px 32px;
-  	text-align: center;
-  	text-decoration: none;
-  	display: inline-block;
-  	font-size: 16px;
-  	margin: 4px 2px;
-  	transition-duration: 0.4s;
-  	cursor: pointer;
+.filterbox button.resetAll{
   	background-color: CadetBlue;
-  	min-width: 30%;
-}
-
-.filters button.showImage{
-	border: groove;
   	color: white;
-  	padding: 16px 32px;
-  	text-align: center;
-  	text-decoration: none;
-  	display: inline-block;
-  	font-size: 16px;
-  	margin: 4px 2px;
-  	transition-duration: 0.4s;
-  	cursor: pointer;
-  	background-color: Tomato;
-  	min-width: 30%;
-}
+} 
 
-.filters button.showMedia{
-	border: groove;
-  	color: white;
-  	padding: 16px 32px;
-  	text-align: center;
-  	text-decoration: none;
-  	display: inline-block;
-  	font-size: 16px;
-  	margin: 4px 2px;
-  	transition-duration: 0.4s;
-  	cursor: pointer;
-  	background-color: CadetBlue;
-  	min-width: 30%;
-}
 
 .footer{
-	padding-top: 10em;
+	padding-top: 7em;
+	position: absolute;
+	width: 70%;
 	clear:both;
 	margin: auto;
 	text-align: center;
