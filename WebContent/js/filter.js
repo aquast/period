@@ -33,5 +33,12 @@ $(document).ready(function() {
 		$('.element').removeClass('hidden');
 		$('.element').fadeTo('slow', 1.0);
 	});
+	
+	$('.inner').click(function(){
+		$(this).parent().clone().appendTo('.legend');
+		$('.focussedElement').remove();
+		$('.legend .element').addClass('focussedElement').removeClass('element');
+		$('.legend').css('background-color', 'white');
+	});
 
 })
