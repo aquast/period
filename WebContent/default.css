@@ -155,10 +155,16 @@ div h1{
 }
 
 
+.periodicTable{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
 .flexCol{
 	display: flex;
   	flex-direction: column;
-  	float: left;
+  	flex-wrap: nowrap;
 }
 
 .element{
