@@ -136,25 +136,25 @@ tr:nth-child(even) {
   margin-top: 0;
   margin-bottom: 30px;
   text-decoration: none;
-  }
+}
 
 .focussedElement a {
   text-decoration: none;
   color: inherit;
-  }
+}
 
 .focussedElement h1 {
   font-family: sans-serif;
   font-size: 3em;
   text-align: center;
-  }
+}
   
 .focussedElement .application {
   font-family: sans-serif;
   font-size: 1.4em;
   margin-bottom: 30px;
   text-align: center;
-  }
+}
   
 .focussedElement .stage {
   font-family: sans-serif;
