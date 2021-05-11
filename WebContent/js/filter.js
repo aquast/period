@@ -29,19 +29,11 @@ $(document).ready(function() {
 		$('.text,.word,.publishing,.presentation,.container,.3d,.data,.image,.vector,.gps').addClass('hidden');
 	});
 	
-<<<<<<< HEAD
 	$('button.showImage').click(function() {
 		$('.element').removeClass('hidden');
 		$("div.element[status!='hiddenNonValid']").fadeTo('slow', 1.0);
 		$('.text,.word,.publishing,.presentation,.container,.audio,.video,.data,.gps,.3d,.interactive').fadeTo('slow', 0.2);
 		$('.text,.word,.publishing,.presentation,.container,.audio,.video,.data,.gps,.3d,.interactive').addClass('hidden');
-=======
-	$("button.showImage").click(function() {
-		$(".element").removeClass("hidden");
-		$("div.element[status!='hiddenNonValid']").fadeTo("slow", 1.0);
-		$(".text,.word,.publishing,.presentation,.container,.audio,.video,.data,.gps,.3d,.interactive").fadeTo("slow", 0.2);
-		$(".text,.word,.publishing,.presentation,.container,.audio,.video,.data,.gps,.3d,.interactive").addClass("hidden");
->>>>>>> 540be3dd867fbb1d928723e5fb0592da1a915702
 	});
 
 	$('button.resetAll').click(function() {
