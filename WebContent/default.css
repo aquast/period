@@ -55,7 +55,7 @@ th {
 tr:nth-child(even) {
   background-color: #ddd;
 }
-  
+
 .infobox {
   position: relative;
   width: 300px;
@@ -68,7 +68,6 @@ tr:nth-child(even) {
   width: 300px;
   margin-left: 750px;
 }
-
 
 .infoArrow {
   height: 1.4em;
@@ -112,7 +111,7 @@ tr:nth-child(even) {
 
 .infoArrowStages {
   height: 3em;
-  position:absolute;
+  position: absolute;
   z-index: 70;
   background-color: white;
   color: black;
@@ -201,7 +200,7 @@ tr:nth-child(even) {
 }
 
 .element {
-  float:left;
+  float: left;
   padding: 10px;
   margin: 5px;
   min-width: 5%;
@@ -352,7 +351,7 @@ p.application {
 .filterbox button.resetAll {
   background-color: CadetBlue;
   color: white;
-} 
+}
 
 .footer {
   padding-top: 7em;
