@@ -10,7 +10,7 @@ $(document).ready(function() {
 
 	$("button.showText").click(function() {
 		$(".element").removeClass("hidden");
-		$("div.element[status!="hiddenNonValid"]").fadeTo("slow", 1.0);
+		$("div.element[status!='hiddenNonValid']").fadeTo("slow", 1.0);
 		$(".container,.audio,.video,.3d,.data,.image,.vector,.gps,.interactive,.publishing,.word,.presentation").fadeTo("slow", 0.2);
 		$(".container,.audio,.video,.3d,.data,.image,.vector,.gps,.interactive,.publishing,.word,.presentation").addClass("hidden");
 	});
@@ -31,7 +31,7 @@ $(document).ready(function() {
 	
 	$("button.showImage").click(function() {
 		$(".element").removeClass("hidden");
-		$("div.element[status!="hiddenNonValid"]").fadeTo("slow", 1.0);
+		$("div.element[status!='hiddenNonValid']").fadeTo("slow", 1.0);
 		$(".text,.word,.publishing,.presentation,.container,.audio,.video,.data,.gps,.3d,.interactive").fadeTo("slow", 0.2);
 		$(".text,.word,.publishing,.presentation,.container,.audio,.video,.data,.gps,.3d,.interactive").addClass("hidden");
 	});
