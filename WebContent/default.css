@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
-body{
+body {
 		max-width: 85%;
 		margin: auto;
 }
 
-body>h1{
+body> h1 {
 	font-family: sans-serif;
 	text-align: center;
 	padding: 10px;
@@ -13,19 +13,19 @@ body>h1{
 	max-width: 70%;
 }
 
-.subtitle{
+.subtitle {
 	margin-top: -25px;
 	text-align: center;
 	font-family: sans-serif;
 	max-width: 70%;
 }
 
-.formatFrame{
+.formatFrame {
 	height: 5em;
 	margin: 0.3em;
 }
 
-.legend{
+.legend {
 	position : absolute;
 	margin-top: 3em;
 	margin-left: 10em;
@@ -36,34 +36,35 @@ body>h1{
 	
 }
 
-table{
+table {
 	font-family: sans-serif;
 	font-size: 1em;
 	text-align: center;
 }
 
-th{
+th {
 	text-align: left;
 }
+
 tr:nth-child(even) {
   background-color: #dddddd;
 }
 	
-.infobox{
+.infobox {
 	position: relative;
 	width: 300px;
 	margin-left: 350px;
 	margin-top: 20px;
 }
 
-.filterbox{
+.filterbox {
 	position: relative;
 	width: 300px;
 	margin-left: 750px;
 }
 
 
-.infoArrow{
+.infoArrow {
 	height: 1.4em;
 	position:absolute;
 	z-index: 70;
@@ -77,13 +78,13 @@ tr:nth-child(even) {
 	font-size: 0.9em;
 }
 
-.infoArrow p{
+.infoArrow p {
 	margin: 0px;
 	font-family: sans-serif;
 	padding: 3px; 
 }
 
-.infoArrowMimetype{
+.infoArrowMimetype {
 	height: 3em;
 	position:absolute;
 	z-index: 70;
@@ -97,7 +98,7 @@ tr:nth-child(even) {
 	font-size: 0.9em;
 }
 
-.infoArrowMimetype p{
+.infoArrowMimetype p {
 	margin: 0px;
 	font-family: sans-serif;
 	padding: 3px; 
@@ -117,13 +118,13 @@ tr:nth-child(even) {
 	font-size: 0.9em;
 }
 
-.infoArrowStages p{
+.infoArrowStages p {
 	margin: 0px;
 	font-family: sans-serif;
 	padding: 3px; 
 }
 
-.focussedElement .pronom{
+.focussedElement .pronom {
 	font-family: sans-serif;
 	font-size: 1.2em;
 	margin-left: 2px;	
@@ -132,24 +133,24 @@ tr:nth-child(even) {
 	text-decoration: none;	
 	}
 
-.focussedElement a{
+.focussedElement a {
 	text-decoration: none;
 	color: inherit;	
 	}
 
-.focussedElement h1{
+.focussedElement h1 {
 	font-family: sans-serif;
 	font-size: 3em;
 	text-align: center;
 
 	}
-.focussedElement .application{
+.focussedElement .application {
 	font-family: sans-serif;
 	font-size: 1.4em;
 	margin-bottom: 30px;	
 	text-align: center;
 	}
-.focussedElement .stage{
+.focussedElement .stage {
 	font-family: sans-serif;
 	font-size: 1.2em;
 	margin-left: 2px;	
@@ -163,7 +164,7 @@ div h1{
 	padding: 0px;
 }
 
-.formattip .tiptext{
+.formattip .tiptext {
 	z-index: 30;
 	position:	absolute;
 	visibility: hidden;
@@ -180,7 +181,7 @@ div h1{
 	margin-left: -15px; 
 }
 
-.formattip:hover .tiptext{
+.formattip:hover .tiptext {
 	position: absolute;
 	display: block;
 	visibility: visible;
@@ -189,19 +190,19 @@ div h1{
 }
 
 
-.periodicTable{
+.periodicTable {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 }
 
-.flexCol{
+.flexCol {
 	display: flex;
   	flex-direction: column;
   	flex-wrap: nowrap;
 }
 
-.element{
+.element {
 	float:left;
 	padding: 10px;
 	margin: 5px;
@@ -211,7 +212,8 @@ div h1{
 	height: 55px;
 	
 }
-.element:hover{
+
+.element:hover {
 	float:left;
 	padding: 17px;
 	margin: -2px;
@@ -231,12 +233,12 @@ div.pronom{
 	margin-bottom: 10px;	
 }
 
-div.pronom a{
+div.pronom a {
 	text-decoration: none;
 	color: inherit;
 }
 
-div.stage{
+div.stage {
 	font-family: sans;
 	font-size: .8em;
 	margin-left: -8px;	
@@ -244,7 +246,7 @@ div.stage{
 	margin-top: 10px;	
 }
 
-.inner{
+.inner {
 	line-height: 0.1px;
 }
 
@@ -257,72 +259,72 @@ p.application{
 	
 }
 
-.noElem{
+.noElem {
 	border: solid 2px;
 	border-color: #fff;
 	visibility: hidden;
 }
-.noElem:hover{
+.noElem:hover {
 	border: solid 2px;
 	border-color: #fff;
 	box-shadow: 0px 0px 0px #fff;
 	visibility: hidden;
 }
 
-.text{
+.text {
 	background-color: DarkGreen;
 	color: #ddd;
 }
-.word{
+.word {
 	background-color: ForestGreen;
 	color: #ddd;
 }
-.publishing{
+.publishing {
 	background-color: CadetBlue;
 	color: #fff;
 }
-.presentation{
+.presentation {
 	background-color: CadetBlue;
 	color: #fff;
 }
-.image{
+.image {
 	background-color: Aquamarine;
 	color: #444;
 }
-.vector{
+.vector {
 	background-color: Aquamarine;
 	color: #444;
 }
-.audio{
+.audio {
 	background-color: GoldenRod;
 	color: #444;
 }
-.video{
+.video {
 	background-color: GoldenRod;
 	color: #444;
 }
-.interactive{
+.interactive {
 	background-color: GoldenRod;
 	color: #444;
 }
-.data{
+.data {
 	background-color: DodgerBlue;
 	color: #fff;
 }
-.gps{
+.gps {
 	background-color: CadetBlue;
 	color: #fff;
 }
-.threed{
+.threed {
 	background-color: CadetBlue;
 	color: #fff;
 }
-.container{
+.container {
 	background-color: CadetBlue;
 	color: #fff;
 }
 
-.filterbox button{
+.filterbox button {
 	border: groove;
   	color: black;
   	padding: 2px;
@@ -338,13 +340,13 @@ p.application{
   	width: 100%;
 }
 
-.filterbox button.resetAll{
+.filterbox button.resetAll {
   	background-color: CadetBlue;
   	color: white;
 } 
 
 
-.footer{
+.footer {
 	padding-top: 7em;
 	position: absolute;
 	width: 70%;
