@@ -49,4 +49,4 @@ $(document).ready(function() {
 		$('.legend').css('background-color', 'white');
 	});
 
-})
+});
