@@ -28,7 +28,7 @@ $(document).ready(function() {
 		$('.text,.word,.publishing,.presentation,.container,.threed,.data,.image,.vector,.gps').fadeTo('slow', 0.2);
 		$('.text,.word,.publishing,.presentation,.container,.threed,.data,.image,.vector,.gps').addClass('hidden');
 	});
-	
+
 	$('button.showImage').click(function() {
 		$('.element').removeClass('hidden');
 		$("div.element[status!='hiddenNonValid']").fadeTo('slow', 1.0);
@@ -41,8 +41,8 @@ $(document).ready(function() {
 		$('.element').removeClass('hidden');
 		$('.element').fadeTo('slow', 1.0);
 	});
-	
-	$('.inner').click(function(){
+
+	$('.inner').click(function() {
 		$(this).parent().clone().appendTo('.legend');
 		$('.focussedElement').remove();
 		$('.legend .element').addClass('focussedElement').removeClass('element');
