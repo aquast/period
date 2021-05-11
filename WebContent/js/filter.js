@@ -10,7 +10,7 @@ $(document).ready(function() {
 
 	$("button.showText").click(function() {
 		$(".element").removeClass("hidden");
-		$("div.element[status!='hiddenNonValid'']").fadeTo("slow", 1.0);
+		$("div.element[status!='hiddenNonValid']").fadeTo("slow", 1.0);
 		$(".container,.audio,.video,.threed,.data,.image,.vector,.gps,.interactive,.publishing,.word,.presentation").fadeTo("slow", 0.2);
 		$(".container,.audio,.video,.threed,.data,.image,.vector,.gps,.interactive,.publishing,.word,.presentation").addClass("hidden");
 	});
@@ -34,6 +34,13 @@ $(document).ready(function() {
 		$("div.element[status!='hiddenNonValid']").fadeTo("slow", 1.0);
 		$(".text,.word,.publishing,.presentation,.container,.audio,.video,.data,.gps,.threed,.interactive").fadeTo("slow", 0.2);
 		$(".text,.word,.publishing,.presentation,.container,.audio,.video,.data,.gps,.threed,.interactive").addClass("hidden");
+	});
+
+	$("button.showData").click(function() {
+		$(".element").removeClass("hidden");
+		$("div.element[status!='hiddenNonValid']").fadeTo("slow", 1.0);
+		$(".text,.word,.publishing,.presentation,.container,.audio,.video,.image,.vector,.interactive").fadeTo("slow", 0.2);
+		$(".text,.word,.publishing,.presentation,.container,.audio,.video,.image,.vector,.interactive").addClass("hidden");
 	});
 
 	$("button.resetAll").click(function() {

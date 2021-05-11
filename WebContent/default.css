@@ -21,7 +21,7 @@ body > h1 {
 }
 
 .formatFrame {
-  height: 5em;
+  height: 6em;
   margin: 0.3em;
 }
 
@@ -29,7 +29,7 @@ body > h1 {
   position: absolute;
   margin-top: 3em;
   margin-left: 10em;
-  border: groove 2em;
+  border: groove 0.2em;
   border-color: 555;
   background-color: Aquamarine;
   width: 170px;
@@ -47,7 +47,7 @@ th {
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #ddd;
 }
   
 .infobox {
@@ -142,22 +142,23 @@ tr:nth-child(even) {
   font-family: sans-serif;
   font-size: 3em;
   text-align: center;
-
   }
+  
 .focussedElement .application {
   font-family: sans-serif;
   font-size: 1.4em;
   margin-bottom: 30px;
   text-align: center;
   }
+  
 .focussedElement .stage {
   font-family: sans-serif;
   font-size: 1.2em;
   margin-left: 2px;
   margin-bottom: 0;
-  }
+}
 
-div h1{
+div h1 {
   font-family: sans-serif;
   font-size: 1.2em;
   text-align: center;
@@ -190,7 +191,6 @@ div h1{
   
 }
 
-
 .periodicTable {
   display: flex;
   flex-direction: row;
@@ -208,7 +208,7 @@ div h1{
   padding: 10px;
   margin: 5px;
   min-width: 5%;
-  border: groove 2em;
+  border: groove 0.2em;
   border-color: #ddd;
   height: 55px;
   
@@ -219,7 +219,7 @@ div h1{
   padding: 17px;
   margin: -2px;
   min-width: 5%;
-  border: groove 2em;
+  border: groove 0.2em;
   border-color: #ddd;
   border-radius: 5;
   box-shadow: 10px 10px 15px #888;
@@ -276,50 +276,62 @@ p.application{
   background-color: DarkGreen;
   color: #ddd;
 }
+
 .word {
   background-color: ForestGreen;
   color: #ddd;
 }
+
 .publishing {
   background-color: CadetBlue;
   color: #fff;
 }
+
 .presentation {
   background-color: CadetBlue;
   color: #fff;
 }
+
 .image {
   background-color: Aquamarine;
   color: #444;
 }
+
 .vector {
   background-color: Aquamarine;
   color: #444;
 }
+
 .audio {
   background-color: GoldenRod;
   color: #444;
 }
+
 .video {
   background-color: GoldenRod;
   color: #444;
 }
+
 .interactive {
   background-color: GoldenRod;
   color: #444;
 }
+
 .data {
   background-color: DodgerBlue;
   color: #fff;
 }
+
 .gps {
   background-color: CadetBlue;
   color: #fff;
 }
+
 .threed {
   background-color: CadetBlue;
   color: #fff;
 }
+
 .container {
   background-color: CadetBlue;
   color: #fff;
@@ -345,7 +357,6 @@ p.application{
   background-color: CadetBlue;
   color: white;
 } 
-
 
 .footer {
   padding-top: 7em;
