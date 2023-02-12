@@ -1,7 +1,7 @@
 # FileFormats as periodic system
 
 
-[Screenshot](0bdd077b2a50.png)
+![Screenshot](0bdd077b2a50.png)
 
 This is an - currently static - webpresentation of file formats with information about long term availibility of this formats. 
 Until now I wasn't able to provide any database backend. A suggestion form for additional file formats would be fine but is recently out of scope for me. 
